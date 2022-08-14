@@ -4,8 +4,7 @@ Given an array nums. We define a running sum of an array as runningSum[i] = sum(
 
 Return the running sum of nums.
 
- 
-```text 
+```text
 Example 1:
 
 Input: nums = [1,2,3,4]
@@ -22,10 +21,10 @@ Input: nums = [3,1,2,10,1]
 Output: [3,4,6,16,17]
 ```
 
+## 풀이  
 
-### 풀이 
+* map 을 이용하여 간결 한 풀이
 
-* map 을 이용하여 간결 한 풀이 
 ```javascript
 /**
  * @param {number[]} nums
@@ -38,6 +37,7 @@ var runningSum = function(nums) {
 ```
 
 * 이전 배열의 합을 구하면서 나타내는 풀이 (최대 성능)
+
 ```javascript
 /**
  * @param {number[]} nums
