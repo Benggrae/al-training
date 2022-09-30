@@ -26,3 +26,30 @@ Constraints:
 nums contains distinct values sorted in ascending order.
 -104 <= target <= 104
 ```
+
+## START CODE
+
+* JAVA
+
+```Java
+class Solution {
+    public int searchInsert(int[] nums, int target) {
+        
+    }
+}
+
+```
+
+*javascript
+
+```javascript
+/**
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number}
+ */
+var searchInsert = function(nums, target) {
+    
+};
+
+```
